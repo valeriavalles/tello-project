@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*////////////////FUENTES///////////*/
+@font-face {
+	font-family: 'MonumentExtended-Regular';
+	src: url('../fonts/MonumentExtended-Regular/MonumentExtended-Regular.eot');
+	src: url('../fonts/MonumentExtended-Regular/MonumentExtended-Regular.woff') format('woff'), 
+		 url('../fonts/MonumentExtended-Regular/MavenPro-Regular.ttf') format('truetype'), 
+		 url('../fonts/MonumentExtended-Regular/MonumentExtended-Regular.svg') format('svg'),
+		 url('../fonts/MonumentExtended-Regular/MonumentExtended-Regular.otf') format('otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Questrial-Regular';
+	src: url('../fonts/Questrial-Regular/Questrial-Regular.eot');
+	src: url('../fonts/Questrial-Regular/Questrial-Regular.woff') format('woff'),
+	     url('../fonts/Questrial-Regular/Questrial-Regular.ttf') format('truetype'), 
+		 url('../fonts/Questrial-Regular/Questrial-Regular.svg') format('svg'),
+		 url('../fonts/Questrial-Regular/Questrial-Regular.otf') format('otf');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SchnyderWideMBold';
+	src: url('../fonts/SchnyderWideMBold/SchnyderWideMBold.eot');
+	src: url('../fonts/SchnyderWideMBold/SchnyderWideMBold.woff') format('woff'), 
+		 url('../fonts/SchnyderWideMBold/SchnyderWideMBold.ttf') format('truetype'), 
+		 url('../fonts/SchnyderWideMBold/SchnyderWideMBold.svg') format('svg'),
+		 url('../fonts/SchnyderWideMBold/SchnyderWideMBold.otf') format('otf');
+	font-weight: normal;
+	font-style: normal;
+}
+#home-landing{margin:0 auto; width:100%;}
+#zona-1{margin-top:160px; padding-right: 50px; padding-left: 0; }
+#zona-2, #zona-3, #zona-5{margin-top:80px!important;}
+#zona-4{background-color: #f00;}
+div #zona-6 {bottom:0!important;}
+#logos-socios{margin-top:80px; margin-bottom:80px; height: 50px!important;}
+.h2{margin-top:120px;}
+.expansible {width: 100%; height: auto;}
+#home-landing{height:768px; background:url('../img/cabecera.jpg') bottom; background-size: cover; padding-right: 50px; padding-left: 0; }
+.top{height:100px;}
+.btn-cotizar{display:block; border:1px solid#000; height:20px; padding: 10px 10px 30px 10px!important;}
+#menu{float:right;}
+#banner a:link{display:block; padding:20px;}
+#banner h6{display:block; float:left; padding:0 10px; margin:0; font-family:'MonumentExtended-Regular', sans-serif!important; }
+.redes span{display:none;}
+h1{margin-bottom: 60px; font-family:'MonumentExtended-Regular', sans-serif!important; font-size:3em;}
+h2{font-family:'MonumentExtended-Regular', sans-serif!important; font-size:1.3em!important;}
+h4{font-family:'Questrial-Regular', sans-serif!important; font-size:1.5em!important;}
+h3{font-family:'MonumentExtended-Regular', sans-serif!important;}
+h5{font-family:'Questrial-Regular', sans-serif!important;}
+.pl-50{padding-left: 50px;}
+.btn-cotizar-rojo, .btn-como-rojo{display:block; border:1px solid #f00; height:20px; width:150px; padding: 10px 10px 30px 10px!important; margin:40px 50px;}
+.flecha{padding-left: 50px; margin:30px 0;}
+#img-zona-2{padding-right: 0!important;}
+.rtbs{width:150px; margin:50px auto;}
+#logos-socios{height:auto!important;}
+#home-panoramica-1, #home-panoramica-2{height:auto;}
+.titu-blanco{color: #fff!important; font-size: 2.8em!important;}
+.linea{border-top: 2px solid #000;}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+	#zona-1{margin-top:80px;}
+	#zona-2, #zona-6{padding-right: 0!important; padding-left: 50px!important; }
+	#zona-3{margin-top:0!important;}
+	.row{margin-right:0!important;}
+	#img-zona-2{padding-right:0!important;}
+	.redes{display: none;}
+	#home-panoramica-1, #home-panoramica-2{padding-right: 0;}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+	.h2{margin-top:20px;}
+	.btn-cotizar-rojo{float:right; margin-right:0!important;}
+	.btn-como-rojo{float:left; margin-left:0!important;}
+}
+
+/* Medium devices (desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	#pan-1, #pan-2{display: none;}
+	#home-panoramica-1{height:526px; background:url('../img/panoramica-1.jpg') bottom; background-size: cover;}
+	#home-panoramica-2{height:479px; background:url('../img/panoramica-2.jpg') bottom; background-size: cover;}
+}
+
+/*#boton-menu{
+	width:60px;
+	height:60px;
+	background:#000 url("../images/abrir.png");
+	position:fixed;
+	top:0;
+	left:0;
+	display:none;
+	}
+	
+#abrir-menu {
+	width:60px;
+	height:60px;
+	cursor:pointer;
+	z-index:22;
+}
+
+#cerrar-menu{
+	width:60px;
+	height:60px;
+	cursor:pointer;
+	display:none;
+	z-index:23;
+}
+
+p{font-size:0.9em;}
+
+
+#menu{float:right!important; display:none;}
+.item a:link, .redes a:link, .item a:visited, .redes a:visited{display:block; width:100%; padding-top:17px; text-align:center; text-decoration:none; color:#FFFFFF; font-size:18px; height:100%; font-family: 'Oswald', sans-serif; font-weight:400;}
+.item{background-image:url(../images/solaris-trama-menu.jpg);}
+.item a:hover{color:#e2ab13;}
+.redes a span, .inicio span{display:none;}
+a.inicio:link, a.inicio:visited{display:block; background-image:url(../images/solaris-home.gif); background-repeat:no-repeat; width:75px; height:55px;}
+a.redf:link, a.redf:visited{background-image:url(../images/solaris-ico-fb.jpg); background-repeat:no-repeat;}
+a.redi:link, a.redi:visited {background-image:url(../images/solaris-ico-ig.jpg); background-repeat:no-repeat;}
+a.redl:link, a.redl:visited{background-image:url(../images/solaris-ico-li.jpg); background-repeat:no-repeat;}
+a.redf:hover{background-image:url(../images/solaris-ico-fb-on.jpg); background-repeat:no-repeat;}
+a.redi:hover{background-image:url(../images/solaris-ico-ig-on.jpg); background-repeat:no-repeat;}
+a.redl:hover{background-image:url(../images/solaris-ico-li-on.jpg); background-repeat:no-repeat;}
+a.inicio:hover{background-image:url(../images/solaris-home-on.gif); background-repeat:no-repeat;}
+#banner{background:url(../images/solaris-banner-1.jpg) no-repeat; height:462px;}
+#banner-int1{background:url(../images/solaris-banner-int1.jpg) no-repeat; height:280px;}
+#banner-int2{background:url(../images/solaris-banner-int2.jpg) no-repeat; height:280px;}
+#banner-int3{background:url(../images/solaris-banner-int1.jpg) no-repeat; height:280px;}
+.titulo {height:200px;}
+.titulo h1{color:#FFFFFF; font-size:34px; font-family: 'Oswald', sans-serif; font-weight:700;}
+#zona-1{min-height:450px; background:#00d1be url(../images/solaris-fondo-mundo.jpg) no-repeat bottom center; }
+#zona-1-int{min-height:200px; background:#00d1be url(../images/solaris-fondo-mundo.jpg) no-repeat bottom center; }
+#zona-1 h2, #zona-1-int h2{color:#FFFFFF; font-family: 'Quicksand', sans-serif; font-weight:700;}
+#zona-1 h3, #zona-2 h3, #zona-3 h3, #zona-4 h3{color:#FFFFFF; font-family: 'Oswald', sans-serif;}
+#zona-2 p, #zona-3 p, #zona-4 p{color:#FFFFFF; font-family: 'Quicksand', sans-serif;}
+#zona-1 p{color:#FFFFFF; font-family: 'Quicksand', sans-serif; font-size:18px;}
+input, textarea{width:100%; border:1px solid #8f8f8f; margin-bottom:10px; padding:5px;}
+h3{font-size:21px!important;}
+.blq-servicios, .blq-proyectos, .blq-nosotros, .blq-ubicanos{height:350px; padding:15px;}
+.blq-internos{height:200px; padding:15px;}
+.color-fuxia{background-color:#bf7fe8;}
+.color-naranja{background-color:#cc9649;}
+.blq-nosotros{background:url(../images/solaris-fondo-nosotros.jpg) no-repeat center top;}
+a.boton-mas:link, a.boton-mas:visited{display:block; width:40px; height:40px; border:2px solid #FFFFFF; position:absolute; bottom:15px; right:30px; text-align:center; font-size:22px; color:#FFFFFF; text-decoration:none;}
+a.boton-mas:hover{ background-color:#FFFFFF; opacity: 0.5; filter: alpha(opacity=50); color:#FF7E00;}
+.blq-ubicanos p, .blq-ubicanos h3{color:#2d2f2c!important;}
+.texto-marcado{font-size:18px; font-weight:bold;}
+.blq-mapa {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #d9d9d9;
+}
+a.btn-top:link, a.btn-top:visited{ display:block; width:75px; height:75px; background-image:url(../images/solaris_63.png); }
+a.btn-top:hover{ background-image:url(../images/solaris_63-on.png); }
+.blq-clientes{height:60px;}
+#enviar{background:#00d1be url(../images/solaris-btn.png); width:265px; height:43px; border:0; cursor:pointer; background-color:transparent;}
+#enviar:hover{background:#00d1be url(../images/solaris-btn-on.png);}
+
+#menu ul{
+	display:block;
+	width:auto;
+	}
+
+#menu li{
+	display:block;
+	list-style:none;
+	}
+	
+.foto-servicio-1{background:#00d1be url(../images/fondo-servicio-1.jpg);}
+.foto-servicio-2{background:#00d1be url(../images/fondo-servicio-2.jpg);}
+.foto-servicio-bombeo{background:#00d1be url(../images/fondo-servicio-bombeo.jpg);}
+.foto-servicio-terma{background:#00d1be url(../images/fondo-servicio-terma.jpg);}
+.foto-servicio-alumbrado{background:#00d1be url(../images/fondo-servicio-alumbrado.jpg);}
+.foto-piura{background:#00d1be url(../images/fondo-piura.jpg);}
+.foto-huaraz{background:#00d1be url(../images/fondo-huaraz.jpg);}
+.foto-puerto-maldonado{background:#00d1be url(../images/fondo-puerto-maldonado.jpg);}
+.foto-alexander{background:#00d1be url(../images/alexander.jpg);}
+.foto-harold{background:#00d1be url(../images/harold.jpg);}
+.sinmargen{padding-left:0!important; padding-right:0!important;}
+.clientes img, .proyectos img{width:100%!important; height:auto!important;}
+.rotulo{position:absolute; width:75%; background-color:#000; color:#FFF; font-family: 'Quicksand'; bottom:0; height:30px; padding:7px;}
+@media (max-width: 1139px) {
+	#home-landing, #zona-1, #zona-2, #zona-3, #zona-4, #zona-5, #zona-1-int{width:100%;}
+	.clientes img, .proyectos img{width:100%!important; height:auto!important;}
+}
+@media (max-width: 970px) {
+	.blq-servicios, .blq-proyectos, .blq-nosotros, .blq-ubicanos, .blq-mapa{height:300px;}
+}
+@media screen and (max-width: 850px) {
+	.inicio, .vacio, .menu{display:none;}
+	#boton-menu, #menu{display:block; z-index:9999;}
+	#menu{
+	position:fixed;
+	z-index:9999;
+	top:0;
+	left:-250px;
+	margin:0;
+	width:250px!important;
+	height:420px!important;
+	}
+	
+	#menu span{display:block;}
+
+	#menu li{
+	display:block!important;
+	height:60px!important;
+	width:100%!important;
+	background:#000 url("../images/flechas-botones.gif")no-repeat!important;
+	height:60px!important;!important;
+	float:none!important;
+	border-right:1px solid #F90!important;
+	border-bottom:1px solid #F90!important;
+	}
+	
+	#menu li a:link, #menu li a:visited{
+	display:block!important;
+	background:#F90 url("../images/flechas-botones.gif")right -70px no-repeat!important;
+	height:60px!important;
+	width:100%!important;
+	color:#fff!important;
+	font-family: 'Oswald', sans-serif;
+	padding:20px 0 0 20px!important;
+	font-size:20px!important;
+	margin:0!important;
+	text-align:left!important;
+	}
+	#menu li a:hover{
+	background:#0095a4 url("../images/flechas-botones.gif")right 0 no-repeat!important;
+	color:#Fff !important;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+	}
+}
+@media (max-width: 700px) {
+	.blq-servicios, .blq-proyectos, .blq-nosotros, .blq-ubicanos, .blq-mapa{height:350px;}
+}
+@media (max-width: 575px) {
+	.blq-servicios, .blq-proyectos, .blq-nosotros, .blq-ubicanos, .blq-mapa{height:270px;}
+	.bajadas{padding-left:20px!important; padding-right:20px!important; font-size:24px;}
+}
+@media (max-width: 440px) {
+	.titulo h1{font-size:18px;}
+	.blq-servicios, .blq-proyectos, .blq-nosotros, .blq-ubicanos, .blq-mapa{height:330px;}
+}
+@media (max-width: 360px) {
+	.blq-servicios, .blq-proyectos, .blq-nosotros, .blq-ubicanos, .blq-mapa{height:350px;}
+}
+*/
