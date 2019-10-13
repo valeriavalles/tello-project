@@ -1,8 +1,48 @@
 .list-style-none li {
   list-style: none;
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
+}
+.list-style-none {
+  margin-top: 40px;
+  padding-left: 20px;
+}
+.content-nav li a {
+  font-family: 'MonumentExtended-Regular', sans-serif!important;
+  color: white;
+  text-decoration: none;
+  /* outline: 1px solid black; */
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.content-nav li a:hover {
+  color: #262626;
+}
+.size-list-menu {
+  font-size: 3rem;
 }
 .content-nav {
   height: 100vh;
-  padding-top: 100px;
+  padding-top: 36px;
+}
+
+.border-bottom-gray {
+  border-bottom: 2px solid #FCC1C1;
+}
+
+
+@media (min-width:768px){
+  .content-nav ul {
+    width: 600px;
+  }
+  .center-md {
+    text-align: center;
+  }
+  .list-style-none {
+    display: inline-block;
+    margin-top: 150px;
+  }
+  .size-list-menu {
+    font-size: 4rem;
+  }
 }
