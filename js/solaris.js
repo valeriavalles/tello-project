@@ -18,5 +18,9 @@ $('.counter').each(function () {
         }
     });
   });
+  ScrollReveal().reveal('.tile', {
+    interval: 200,
+    reset: true
+  });
 
     
