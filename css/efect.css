@@ -45,6 +45,7 @@
 }
 
 
+
 @media (min-width:768px){
   .content-nav ul {
     width: 600px;
@@ -62,5 +63,10 @@
   .content-nav li a {
     padding-top: 5px;
     padding-bottom: 5px;
+  }
+  .content-icons {
+    width: 800px;
+    text-align: right;
+    display: inline-block;
   }
 }
