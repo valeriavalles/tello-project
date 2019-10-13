@@ -66,6 +66,7 @@ h5{font-family:'Questrial-Regular', sans-serif!important;}
 #home-panoramica-1, #home-panoramica-2{height:auto;}
 .titu-blanco{color: #fff!important; font-size: 2.8em!important;}
 .linea{border-top: 2px solid #000;}
+.mostrar{display:none;}
 
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) {
@@ -74,8 +75,10 @@ h5{font-family:'Questrial-Regular', sans-serif!important;}
 	#zona-3{margin-top:0!important;}
 	.row{margin-right:0!important;}
 	#img-zona-2{padding-right:0!important;}
-	.redes{display: none;}
+	.redes, .ocultar{display: none;}
+	.mostrar{display:block;}
 	#home-panoramica-1, #home-panoramica-2{padding-right: 0;}
+	.btn-pie{float:left!important; margin-left:50px!important;}
 }
 
 /* Medium devices (desktops, 992px and up) */
