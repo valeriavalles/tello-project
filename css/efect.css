@@ -10,20 +10,34 @@
   font-family: 'MonumentExtended-Regular', sans-serif!important;
   color: white;
   text-decoration: none;
-  /* outline: 1px solid black; */
   display: block;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .content-nav li a:hover {
   color: #262626;
 }
 .size-list-menu {
-  font-size: 3rem;
+  font-size: 2.3rem;
 }
 .content-nav {
+  position: fixed;
+  z-index: 99;
+  left: -100%;
+  width: 100%;
   height: 100vh;
   padding-top: 36px;
+  min-height: 700px;
+  transition: 1s all;
+  opacity: 0;
+}
+.nav-show {
+  left: 0;
+  transition: .8s all;
+  opacity: 1;
+}
+.delete {
+  padding: 10px;
 }
 
 .border-bottom-gray {
@@ -44,5 +58,9 @@
   }
   .size-list-menu {
     font-size: 4rem;
+  }
+  .content-nav li a {
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
