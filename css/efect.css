@@ -1,0 +1,8 @@
+.list-style-none li {
+  list-style: none;
+  outline: 1px solid black;
+}
+.content-nav {
+  height: 100vh;
+  padding-top: 100px;
+}

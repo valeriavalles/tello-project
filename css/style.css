@@ -43,7 +43,7 @@
 #logos-socios{margin-top:80px; margin-bottom:80px; height: 50px!important;}
 .h2{margin-top:120px;}
 .expansible {width: 100%; height: auto;}
-#home-landing{height:768px; background:url('../img/cabecera.jpg') bottom; background-size: cover; padding-right: 50px; padding-left: 0; }
+#home-landing{height:768px; background:url('../img/cabecera.jpg') bottom; background-size: cover; padding-left: 0; }
 .top{height:100px;}
 .btn-cotizar{display:block; border:1px solid#000; height:20px; padding: 10px 10px 30px 10px!important;}
 #menu{float:right;}
@@ -51,7 +51,7 @@
 #banner h6{display:block; float:left; padding:0 10px; margin:0; font-family:'MonumentExtended-Regular', sans-serif!important; }
 .redes span{display:none;}
 h1{margin-bottom: 60px; font-family:'MonumentExtended-Regular', sans-serif!important; font-size:3em;}
-h2{font-family:'MonumentExtended-Regular', sans-serif!important; font-size:1.3em!important;}
+h2{font-family:'MonumentExtended-Regular', sans-serif!important; font-size:2.8rem !important;}
 h4{font-family:'Questrial-Regular', sans-serif!important; font-size:1.5em!important;}
 h3{font-family:'MonumentExtended-Regular', sans-serif!important;}
 h5{font-family:'Questrial-Regular', sans-serif!important;}
@@ -76,13 +76,21 @@ h5{font-family:'Questrial-Regular', sans-serif!important;}
 	#img-zona-2{padding-right:0!important;}
 	.redes{display: none;}
 	#home-panoramica-1, #home-panoramica-2{padding-right: 0;}
+
 }
+
 
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 992px) { 
 	.h2{margin-top:20px;}
 	.btn-cotizar-rojo{float:right; margin-right:0!important;}
 	.btn-como-rojo{float:left; margin-left:0!important;}
+}
+
+@media (min-width:768px){
+	#home-landing {
+		padding-right: 50px
+	}
 }
 
 /* Medium devices (desktops, 1200px and up) */
