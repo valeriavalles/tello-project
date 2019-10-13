@@ -37,7 +37,7 @@
 }
 #home-landing{margin:0 auto; width:100%;}
 #zona-1{margin-top:160px; padding-right: 50px; padding-left: 0; }
-#zona-2, #zona-3, #zona-5, #zona-7{margin-top:80px!important;}
+#zona-2, #zona-3, #zona-5, #zona-7{padding-top:80px!important;padding-bottom: 40px;}
 #zona-4{background-color: #f00;}
 #zona-6, #zona-7{margin-bottom:80px;}
 #logos-socios{margin-top:80px; margin-bottom:80px; height: 50px!important;}
