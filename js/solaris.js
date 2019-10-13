@@ -5,6 +5,11 @@ $('.delete').on('click', function(){
   $('.nav-menu').removeClass('nav-show')
 })
 
+ScrollReveal().reveal('.tile', {
+  interval: 1000,
+  reset: true
+});
+// ScrollReveal().reveal('#example', { duration: 500 });
 $('.counter').each(function () {
   $(this).prop('Counter',0).animate(
     {
@@ -18,9 +23,6 @@ $('.counter').each(function () {
         }
     });
   });
-  ScrollReveal().reveal('.tile', {
-    interval: 200,
-    reset: true
-  });
+
 
     
