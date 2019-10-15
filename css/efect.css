@@ -94,8 +94,34 @@
   visibility: hidden;
 }
 
+/* Color of the arrows */
+.slick-next::before, .slick-prev::before {
+  color: black;
+}
 
+.slick-carousel {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 25px;   ;
+}
 
+/* The width of each slide */
+.slick-slide {
+  /* width: 350px; */
+  height: auto;
+}
+.slick-slide img {
+  display: inline-block;
+}
+.space-section {
+  padding-bottom: 20px;
+}
+.height-25 {
+  height: 25px;
+}
+.slick-active:focus {
+  outline: none;
+}
 
 @media (min-width:768px){
   .content-nav ul {
@@ -119,5 +145,8 @@
     width: 800px;
     text-align: right;
     display: inline-block;
+  }
+  .space-section {
+    padding-bottom: 80px;
   }
 }

@@ -13,6 +13,8 @@
    <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/efect.css">
@@ -218,7 +220,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row">
                 <div class="col-md-12">
                         <div class="content-time" style="position: relative;">
-                            <div class="item-line">
+                            <!-- <div class="item-line">
                                 <span class="circle"></span>
                             </div>
                             <div class="item-line">
@@ -232,7 +234,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </div>
                             <div class="item-line">
                                 <span class="circle"></span>
-                            </div>
+                            </div> -->
                         </div>
                 </div>
                 
@@ -246,7 +248,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
     </section>
 
-    <section>
+    <section class="space-section">
         <div id="zona-5" class="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-6 linea"></div>
@@ -255,9 +257,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row">
                 <div class="col-md-2 col-sm-2 col-xs-12 text-left">
                     <h5 class="pl-50">Clientes que confiaron en nosotros</h5>
+                    <div class="height-25 hidden-xs"></div>
                 </div>
             </div>
-            <div class="row" id="logos-socios">
+            <!-- <div class="row" id="logos-socios">
                 <div class="col-md-2 col-sm-2 col-xs-6 text-center">
                     <img src="img/logo-alko.jpg" alt="AL-KO">
                 </div>
@@ -276,7 +279,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-md-2 col-sm-2 col-xs-6 text-center">
                     <img src="img/logo-sni.jpg" alt="SNI">
                 </div>
+            </div> -->
+
+            <!-- Create your own class for the containing div -->
+        <!-- <div class="height-25"></div> -->
+        <div class="slick-carousel">
+        <!-- Inside the containing div, add one div for each slide -->
+            <div class="text-center">
+            <!-- You can put an image or text inside each slide div -->
+                <img src="img/logo-alko.jpg" alt="AL-KO">
             </div>
+            <div class="text-center">
+                <img src="img/logo-muni-molina.jpg">
+            </div>
+            <div class="text-center">
+                <img src="img/logo-selvamonos.jpg">
+            </div>
+            <div class="text-center">
+                <img src="img/logo-rimac.jpg">
+            </div>
+            <div class=" text-center">
+                <img src="img/logo-upc.jpg" alt="UPC">
+            </div>
+            <div class="text-center">
+                <img src="img/logo-sni.jpg" alt="SNI">
+            </div>
+        </div>
         </div>
     </section>
 
@@ -485,14 +513,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="js/bootstrap.js" ></script>
 <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.0/scrollreveal.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.slick/1.5.6/slick.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/solaris.js"></script>
 <script>
     AOS.init();
-//    ScrollReveal().reveal('.headline');
-// ScrollReveal().reveal('.headline');
-// ScrollReveal().reveal('.tagline', { delay: 500 });
-// ScrollReveal().reveal('.punchline', { delay: 2000 });
+    $('.slick-carousel').slick({
+        infinite: true,
+        slidesToShow: 4, // Shows a three slides at a time
+        slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
+        arrows: true, // Adds arrows to sides of slider
+        dots: true, // Adds the dots on the bottom,
+        autoplay: true,
+        responsive: [{
+        breakpoint: 1024,
+        settings: {
+          vertical: true,
+          slidesToShow: 1,
+        }
+      },
+      {
+        breakpoint: 700,
+        settings: {
+          vertical: false,
+          slidesToShow: 3,
+          slidesToShow: 1,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          vertical: false,
+          slidesToShow: 1,
+          slidesToShow: 1,
+        }
+      }
+    ]
+    });
 
 
     
