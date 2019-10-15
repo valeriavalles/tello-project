@@ -26,6 +26,8 @@ function counter(){
     });
 }
 
+counter()
+
 $.fn.animateCounter = function(options) {
   var settings = $.extend({
       start:  0,
@@ -59,11 +61,11 @@ $(window).scroll(function() {
     $('.number-5').animateCounter({start: 10,end: 36,duration: 5000});
   }
 });
-counter()
+
   
 
 
-console.log($("#zona-3").offset().top)
+// console.log($("#zona-3").offset().top)
  
 
 
