@@ -122,6 +122,20 @@
 .slick-active:focus {
   outline: none;
 }
+.height-100 {
+  height: 100px;
+}
+.height-50 {
+  height: 50px;
+}
+.btn-cotizar-rojo {
+  color: red;
+}
+.btn-cotizar-rojo:hover {
+  text-decoration: none;
+  color: white;
+  background: red;
+}
 
 @media (min-width:768px){
   .content-nav ul {
@@ -148,5 +162,8 @@
   }
   .space-section {
     padding-bottom: 80px;
+  }
+  .size-md-4 {
+    font-size: 4rem !important;
   }
 }
