@@ -35,58 +35,181 @@
 	font-weight: normal;
 	font-style: normal;
 }
-#home-landing{margin:0 auto; width:100%;}
-#zona-1{margin-top:160px; padding-right: 50px; padding-left: 0; overflow: hidden;}
-#zona-2, #zona-3, #zona-5, #zona-7{padding-top:80px!important;padding-bottom: 40px; overflow: hidden;}
-#zona-4{background-color: #f00;padding-bottom: 40px;padding-top: 40px;}
-#zona-6, #zona-7{margin-bottom:80px;}
-#logos-socios{margin-top:80px; margin-bottom:80px; height: 50px!important;}
-.h2{margin-top:120px;}
-.expansible {width: 100%; height: auto;}
-#home-landing{height:768px; background:url('../img/cabecera.jpg') bottom; background-size: cover; padding-left: 0; }
-.top{height:100px;}
-.btn-cotizar{display:block; border:1px solid#000; height:20px; padding: 10px 10px 30px 10px!important;}
-#menu{float:right;}
-#banner a:link{display:block; padding:20px;}
-#banner h6{display:block; float:left; padding:0 10px; margin:0; font-family:'MonumentExtended-Regular', sans-serif!important; }
-.redes span, #zona-7 span{display:none;}
-h1{margin-bottom: 60px; font-family:'MonumentExtended-Regular', sans-serif!important; font-size:3em;}
-h2{font-family:'MonumentExtended-Regular', sans-serif!important; font-size:2.8rem !important;}
-h4{font-family:'Questrial-Regular', sans-serif!important; font-size:1.5em!important;}
-h3{font-family:'MonumentExtended-Regular', sans-serif!important;}
-h5{font-family:'Questrial-Regular', sans-serif!important;}
-.pl-50{padding-left: 50px;}
-.pl-15{padding-left: 15px;}
-.btn-cotizar-rojo, .btn-como-rojo{display:block; border:1px solid #f00; height:20px; width:150px; padding: 10px 10px 30px 10px!important; margin:40px 50px;}
-.btn-pie{margin:40px 0; float:right;}
-.flecha{padding-left: 50px; margin:30px 0;}
-#img-zona-2{padding-right: 0!important;}
-.rtbs{width:150px; margin:50px auto;}
-#logos-socios{height:auto!important;}
-#home-panoramica-1, #home-panoramica-2{height:auto;}
-.titu-blanco{color: #fff!important; font-size: 2.8em!important;}
-.linea{border-top: 2px solid #000;}
-.mostrar{display:none;}
+#home-landing{
+	margin:0 auto; 
+	width:100%; 
+	overflow: hidden;
+}
+#zona-1{
+	margin-top:160px;
+	padding-right: 50px;
+	padding-left: 0; 
+	overflow: hidden;
+}
+#zona-2, #zona-3, #zona-5, #zona-7{
+	padding-top:80px!important;
+	padding-bottom: 40px; 
+	overflow: hidden;
+}
+#zona-4{
+	background-color: #f00;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+#zona-6, #zona-7{
+	margin-bottom:80px;
+}
+#logos-socios{
+	margin-top:80px; 
+	margin-bottom:80px; 
+	height: 50px!important;}
+.h2{margin-top:120px;
+}
+.expansible {
+	width: 100%; 
+	height: auto;
+}
+#home-landing{
+	height:768px; 
+	background:url('../img/cabecera.jpg') bottom; 
+	background-size: cover; 
+	padding-left: 0; 
+}
+.top{height:100px;
+}
+.btn-cotizar{display:block; 
+	border:1px 
+	solid#000; 
+	height:20px; 
+	padding: 10px 10px 30px 10px!important;
+}
+#menu{
+	float:right;
+}
+#banner a:link{
+	display:block; 
+	padding:20px;
+}
+#banner h6{
+	display:block; 
+	float:left; padding:0 10px; 
+	margin:0; 
+	font-family:'MonumentExtended-Regular', sans-serif!important; 
+}
+.redes span, #zona-7 span{
+	display:none;
+}
+h1{
+	margin-bottom: 60px; 
+	font-family:'MonumentExtended-Regular', sans-serif!important; 
+	font-size:3em;
+}
+h2{
+	font-family:'MonumentExtended-Regular', sans-serif!important; 
+	font-size:2.8rem !important;
+}
+h4{
+	font-family:'Questrial-Regular', sans-serif!important; 
+	font-size:1.5em!important;
+}
+h3{
+	font-family:'MonumentExtended-Regular', sans-serif!important;
+}
+h5{
+	font-family:'Questrial-Regular', sans-serif!important;
+}
+.pl-50{
+	padding-left: 50px;
+}
+.pl-15{
+	padding-left: 15px;
+}
+.mr-32{
+	margin-right: 32px!important;
+}
+.btn-cotizar-rojo, .btn-como-rojo{
+	display:block; 
+	border:1px solid #f00; 
+	height:20px; 
+	width:150px; 
+	padding: 10px 10px 30px 10px!important; 
+	margin:40px 50px;
+}
+.btn-pie{
+	margin:40px 0; 
+	float:right;
+}
+.flecha{
+	padding-left: 50px; 
+	margin:30px 0;
+}
+#img-zona-2{
+	padding-right: 0!important;
+}
+.rtbs{
+	width:150px; 
+	margin:50px auto;
+}
+#logos-socios{
+	height:auto!important;
+}
+#home-panoramica-1, #home-panoramica-2{
+	height:auto;
+}
+.titu-blanco{
+	color: #fff!important; 
+	font-size: 2.8em!important;
+}
+.linea{
+	border-top: 2px solid #000;
+}
+.mostrar{
+	display:none;
+}
 
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) {
-	#zona-1{margin-top:80px;}
-	#zona-2, #zona-6{padding-right: 0!important; padding-left: 50px!important; }
-	#zona-3{margin-top:0!important;}
-	.row{margin-right:0!important;}
-	#img-zona-2{padding-right:0!important;}
-	.redes, .ocultar{display: none;}
-	.mostrar{display:block;}
-	#home-panoramica-1, #home-panoramica-2{padding-right: 0;}
-	.btn-pie{float:left!important; margin-left:50px!important;}
+	#zona-1{
+		margin-top:80px;
+	}
+	#zona-2, #zona-6{
+		padding-right: 0!important; 
+		padding-left: 50px!important; 
+	}
+	#zona-3{
+		padding-top:0!important;
+	}
+	.row{
+		margin-right:0!important;
+	}
+	#img-zona-2{
+		padding-right:0!important;
+	}
+	.redes, .ocultar{
+		display: none;}
+	.mostrar{display:block;
+	}
+	#home-panoramica-1, #home-panoramica-2{
+		padding-right: 0;
+	}
+	.btn-pie{
+		float:left!important; 
+		margin-left:50px!important;
+	}
 }
 
 
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 992px) { 
-	.h2{margin-top:20px;}
-	.btn-cotizar-rojo{float:right; margin-right:0!important;}
-	.btn-como-rojo{float:left; margin-left:0!important;}
+	.h2{
+		margin-top:20px;
+	}
+	.btn-cotizar-rojo{
+		float:right; margin-right:0!important;
+	}
+	.btn-como-rojo{
+		float:left; margin-left:0!important;
+	}
 }
 
 @media (min-width:768px){
@@ -97,8 +220,18 @@ h5{font-family:'Questrial-Regular', sans-serif!important;}
 
 /* Medium devices (desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-	#pan-1, #pan-2{display: none;}
-	#home-panoramica-1{height:526px; background:url('../img/panoramica-1.jpg') bottom; background-size: cover;}
-	#home-panoramica-2{height:479px; background:url('../img/panoramica-2.jpg') bottom; background-size: cover;}
+	#pan-1, #pan-2{
+		display: none;
+	}
+	#home-panoramica-1{
+		height:526px; 
+		background:url('../img/panoramica-1.jpg') bottom; 
+		background-size: cover;
+	}
+	#home-panoramica-2{
+		height:479px; 
+		background:url('../img/panoramica-2.jpg') bottom; 
+		background-size: cover;
+	}
 }
 

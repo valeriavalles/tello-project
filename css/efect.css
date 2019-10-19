@@ -131,7 +131,7 @@
 .btn-cotizar-rojo {
   color: red;
 }
-.btn-cotizar-rojo:hover {
+.btn-cotizar-rojo:hover, .btn-cotizar:hover, .btn-como-rojo:hover{
   text-decoration: none;
   color: white;
   background: red;
