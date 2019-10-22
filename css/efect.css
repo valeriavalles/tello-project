@@ -81,7 +81,7 @@
 .btn-cotizar-rojo {
   color: red;
 }
-.btn-cotizar-rojo:hover, .btn-como-rojo:hover{
+.btn-cotizar-rojo:hover, .btn-como-rojo:hover, .btn-contactanos-rojo:hover {
   text-decoration: none;
   color: red!important;
   background: none;
