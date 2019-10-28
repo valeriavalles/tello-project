@@ -99,7 +99,16 @@
   padding: 10px 10px 30px 10px!important;
   /* margin: 40px 50px; */
 }
-.content-btn-white a:hover {
+.btn-cotizar-rojo-border {
+  display: inline-block;
+  height: 20px;
+  width: 150px;
+  color: red;
+  border: 1px solid red;
+  padding: 10px 10px 30px 10px!important;
+
+}
+.content-btn-white a:hover, .btn-cotizar-rojo-border:hover {
   text-decoration: none;
 }
 .content-btn-white {
@@ -136,6 +145,9 @@
 }
 .close {
   opacity: 1;
+}
+.hidden,.deploy {
+  transition: 5s all;
 }
 
 
