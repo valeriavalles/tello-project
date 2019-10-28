@@ -221,7 +221,7 @@ h5{
     transform: rotate(180deg);
     text-align: center;
 }
-#servicios a:link{
+#servicios a:link, .monuntEx{
 	color:#000!important;
 	font-family:'MonumentExtended-Regular', sans-serif!important;
 }
