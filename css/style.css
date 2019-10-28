@@ -59,10 +59,15 @@
 #zona-6, #zona-7{
 	margin-bottom:80px;
 }
+#zona-8{
+	padding-bottom: 40px; 
+	overflow: hidden;
+}
 #logos-socios{
 	margin-top:80px; 
 	margin-bottom:80px; 
-	height: 50px!important;}
+	height: 50px!important;
+}
 .h2{margin-top:120px;
 }
 p{
@@ -75,9 +80,15 @@ p{
 	width: 100%; 
 	height: auto;
 }
-#home-landing{
+#home{
 	height:768px; 
 	background:url('../img/cabecera.jpg') bottom; 
+	background-size: cover; 
+	padding-left: 0; 
+}
+#home-landing{
+	height:768px; 
+	background:url('../img/cabecera-landing.jpg') bottom; 
 	background-size: cover; 
 	padding-left: 0; 
 }
@@ -189,7 +200,7 @@ h5{
 #logos-socios{
 	height:auto!important;
 }
-#home-panoramica-1, #home-panoramica-2, #home-panoramica-3 , #home-panoramica-4{
+#home-panoramica-1, #home-panoramica-2, #home-panoramica-3, #home-panoramica-4, #home-panoramica-5{
 	height:auto;
 }
 #home-panoramica-3, #home-panoramica-4{
@@ -198,6 +209,12 @@ h5{
 .titu-blanco{
 	color: #fff!important; 
 	font-size: 2.8em!important;
+}
+.titu-blanco-landing{
+	color: #fff!important; 
+	font-size: 1.8em!important;
+	width: 80%!important;
+	margin:0 auto!important;
 }
 .linea{
 	border-top: 2px solid #333;
@@ -259,7 +276,7 @@ h5{
 		display: none;}
 	.mostrar{display:block;
 	}
-	#home-panoramica-1, #home-panoramica-2, #home-panoramica-3, #home-panoramica-4{
+	#home-panoramica-1, #home-panoramica-2, #home-panoramica-3, #home-panoramica-4, #home-panoramica-5{
 		padding-right: 0;
 	}
 	.btn-pie{
@@ -273,7 +290,24 @@ h5{
 		border-bottom:0!important;
 	}
 }
-
+input, textarea{
+	width:100%; 
+	border:1px 
+	solid #8f8f8f; 
+	margin-bottom:10px; 
+	padding:10px;
+}
+#enviar{
+	background:#00d1be url(../img/solaris-btn.png); 
+	width:265px; 
+	height:45px; 
+	border:0; 
+	cursor:pointer; 
+	background-color:transparent;
+}
+#enviar:hover{
+	background:url(../img/solaris-btn-on.png);
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 992px) { 
@@ -286,6 +320,12 @@ h5{
 	.btn-como-rojo{
 		float:left; margin-left:0!important;
 	}
+	.titu-landing{
+		font-size: 2em!important;
+	}
+	.formulario{
+		margin-left: 15px;
+	}
 }
 
 @media (min-width:768px){
@@ -296,7 +336,7 @@ h5{
 
 /* Medium devices (desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-	#pan-1, #pan-2, #pan-3, #pan-4{
+	#pan-1, #pan-2, #pan-3, #pan-4, #pan-5{
 		display: none;
 	}
 	#home-panoramica-1{
@@ -317,6 +357,11 @@ h5{
 	#home-panoramica-4{
 		height:479px; 
 		background:url('../img/panoramica-4.jpg') bottom; 
+		background-size: cover;
+	}
+	#home-panoramica-5{
+		height:479px; 
+		background:url('../img/panoramica-5.jpg') bottom; 
 		background-size: cover;
 	}
 }
