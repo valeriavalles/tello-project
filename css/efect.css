@@ -146,8 +146,18 @@
 .close {
   opacity: 1;
 }
-.hidden,.deploy {
-  transition: 5s all;
+.hidden , .deploy {
+  transition: 6s all;
+}
+/* .hidden {
+  opacity: 0;
+} */
+
+.visible-style {
+  /* visibility: visible; */
+  opacity: 1;
+  transition: 6s all;
+  /* transition: opacity 6s cubic-bezier(0.5, 0, 0, 1) 0s; */
 }
 
 

@@ -101,9 +101,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <img class="mb-40" src="img/proyecto-6.jpg" data-aos="fade-up"/>
             </div>
         </div>
+        <div class="row deploy hidden">
+            <div class="col-md-6 col-sm-6 col-xs-12 pl-50  " >
+                <h4 class="mb-40 "><strong>OFICINA SOSTENIBLE</strong></h4>
+                <img class="mb-40" src="img/proyecto-1.jpg"  data-aos="fade-up" />
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 pl-50 ">
+                <h4 class="mb-40 "><strong>HIPOCAMPO</strong></h4>
+                <img class="mb-40" src="img/proyecto-2.jpg" data-aos="fade-up"/>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 pl-50 ">
+                <h4 class="mb-40"><strong>PROYECTO 3</strong></h4>
+                <img class="mb-40" src="img/proyecto-3.jpg" data-aos="fade-up"/>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 pl-50 ">
+                <h4 class="mb-40"><strong>PROYECTO 4</strong></h4>
+                <img class="mb-40" src="img/proyecto-4.jpg" data-aos="fade-up"/>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 pl-50 ">
+                <h4 class="mb-40"><strong>PROYECTO 5</strong></h4>
+                <img class="mb-40" src="img/proyecto-5.jpg" data-aos="fade-up"/>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 pl-50 ">
+                <h4 class="mb-40"><strong>PROYECTO 6</strong></h4>
+                <img class="mb-40" src="img/proyecto-6.jpg" data-aos="fade-up"/>
+            </div>
+        </div>
         <div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mt-48 pr-5">
-              <a href="#" class="btn-contactanos-rojo">Más Proyectos</a>
+              <a href="JavaScript:Void(0);" class="btn-contactanos-rojo ver-mas">Más Proyectos</a>
             </div>
         </div>
     </div>
@@ -191,43 +217,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="js/bootstrap.js" ></script>
 <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.0/scrollreveal.min.js"></script>
-<script src="https://cdn.jsdelivr.net/jquery.slick/1.5.6/slick.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.6/slick.min.js"></script> -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/solaris.js"></script>
 <script>
     AOS.init();
-    $('.slick-carousel').slick({
-        infinite: true,
-        slidesToShow: 4, // Shows a three slides at a time
-        slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
-        arrows: true, // Adds arrows to sides of slider
-        dots: true, // Adds the dots on the bottom,
-        autoplay: true,
-        responsive: [{
-        breakpoint: 1024,
-        settings: {
-          vertical: true,
-          slidesToShow: 1,
-        }
-      },
-      {
-        breakpoint: 700,
-        settings: {
-          vertical: false,
-          slidesToShow: 3,
-          slidesToShow: 1,
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          vertical: false,
-          slidesToShow: 1,
-          slidesToShow: 1,
-        }
-      }
-    ]
-    }); 
+
+    $('.ver-mas').on('click', function(){
+        $('.deploy').removeClass('hidden')
+        $('.deploy').addClass('visible-style')
+    })
+    // ScrollReveal().reveal('.title', {
+    //   interval: 100,
+    //   reset: true
+    // });
 </script>
 </body>
 </html>
