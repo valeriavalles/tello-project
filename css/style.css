@@ -59,7 +59,7 @@
 #zona-6, #zona-7{
 	margin-bottom:80px;
 }
-#zona-8{
+#zona-8, #zona-9{
 	padding-bottom: 40px; 
 	overflow: hidden;
 }
@@ -250,6 +250,9 @@ h5{
 	color:red!important;
 	font-family:'MonumentExtended-Regular', sans-serif!important;
 }
+.flecha-derecha{
+	background:url('../img/flecha-derecha.png') right center no-repeat; 
+}
 
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) {
@@ -289,6 +292,10 @@ h5{
 	.linea-bottom1{
 		border-bottom:0!important;
 	}
+	#zona-8 img{
+		width:100%;
+		height:auto;
+	}
 }
 input, textarea{
 	width:100%; 
@@ -325,6 +332,10 @@ input, textarea{
 	}
 	.formulario{
 		margin-left: 15px;
+	}
+	#zona-8 img{
+		width:100%;
+		height:auto;
 	}
 }
 
