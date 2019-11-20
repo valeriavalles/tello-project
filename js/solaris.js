@@ -4,6 +4,9 @@ $('#menu').on('click', function(){
 $('.delete').on('click', function(){
   $('.nav-menu').removeClass('nav-show')
 })
+$('.ver-mas').on('click', function(){
+  $('.ver-mas').hide()
+})
 
 ScrollReveal().reveal('.tile', {
   interval: 1000,
