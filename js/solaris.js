@@ -8,10 +8,7 @@ $('.ver-mas').on('click', function(){
   $('.ver-mas').hide()
 })
 
-ScrollReveal().reveal('.tile', {
-  interval: 1000,
-  reset: true
-});
+
 
 function counter(){
   $('.counter').each(function () {
